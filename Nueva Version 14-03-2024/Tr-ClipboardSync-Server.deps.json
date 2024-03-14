@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tr-ClipboardSync-Server/1.0.0": {
+        "dependencies": {
+          "Chapter.Net.WPF.SystemTray": "1.0.0",
+          "Notifications.Wpf": "0.1.1"
+        },
+        "runtime": {
+          "Tr-ClipboardSync-Server.dll": {}
+        }
+      },
+      "Chapter.Net.WinAPI/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Chapter.Net.WinAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Chapter.Net.WPF/1.0.0": {
+        "dependencies": {
+          "Chapter.Net.WinAPI": "1.0.0"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Chapter.Net.WPF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Chapter.Net.WPF.SystemTray/1.0.0": {
+        "dependencies": {
+          "Chapter.Net.WPF": "1.0.0"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Chapter.Net.WPF.SystemTray.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Notifications.Wpf/0.1.1": {
+        "runtime": {
+          "lib/net461/Notifications.Wpf.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tr-ClipboardSync-Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter.Net.WinAPI/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pFGyxIfI6YmBYEafCfnokeRwKlUs9oHYzZe1aCxwu1HwV4FGVIm5ocY3c+8zU794xEOuHbsM2V99N9agV4ScBg==",
+      "path": "chapter.net.winapi/1.0.0",
+      "hashPath": "chapter.net.winapi.1.0.0.nupkg.sha512"
+    },
+    "Chapter.Net.WPF/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZd6f5jlNFC9LLxhTYvaMwwAt/yndRN70gKt4HVwJqOfurwhMgZpQu7612wyg+xiK06vkqIgCXY30FdKHNy4yQ==",
+      "path": "chapter.net.wpf/1.0.0",
+      "hashPath": "chapter.net.wpf.1.0.0.nupkg.sha512"
+    },
+    "Chapter.Net.WPF.SystemTray/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gp34YqoLm61lvH1C7be/TOgOtQ5CTclVXKQpRRax+qOLkLF1pHxurjyfyTZnzUENpUcO3acH2BKDmBLNldLoXg==",
+      "path": "chapter.net.wpf.systemtray/1.0.0",
+      "hashPath": "chapter.net.wpf.systemtray.1.0.0.nupkg.sha512"
+    },
+    "Notifications.Wpf/0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZQeeDXEkk0eQPGEhdNxCuAJ6R6NpCKxlMBFStwAjtXFk8t9j2SjVHvLN/FCr+oCKTkKOJPjOMvaXIS+AE7qxA==",
+      "path": "notifications.wpf/0.1.1",
+      "hashPath": "notifications.wpf.0.1.1.nupkg.sha512"
+    }
+  }
+}
